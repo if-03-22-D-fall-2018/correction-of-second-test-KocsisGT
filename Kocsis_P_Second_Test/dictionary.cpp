@@ -108,7 +108,7 @@ bool is_in_dict(Dictionary dict, const char* word)
   { //new implementation
     return false; //new implementation
   } //new implementation
-  NodeStruct current = dict->head;
+  NodeStruct current = dict->head; //new implementation
 
   while(strcasecmp(current->word, word) != 0 && current->next != 0) //new implementation
   { //new implementation
